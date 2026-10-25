@@ -1,140 +1,100 @@
-# 团队聚餐最终菜单
+# Saturday Team Dinner Menu（周六团队聚餐菜单）
 
-- **时间**：本周五晚
-- **人数**：6 人
-- **菜单结构**：主食 ×2、荤菜 ×2、素菜 ×2、汤 ×1，另附手抓饼完整菜谱（见附录）
-- **菜谱来源**：《程序员做饭指南》家庭菜谱库
+- **Time**: this Saturday — quarterly research-group potluck, all dishes cooked by the host
+- **Guests**: 6 people
+- **Dietary constraints**: one vegetarian teammate + one teammate with a shrimp allergy → **the entire menu is 100% shrimp-free**; 4 of the 6 dishes are vegetarian-friendly
+- **Recipe source**: our shared Chinese cookbook (《程序员做饭指南》 / HowToCook)
 
-## 饮食限制（硬性约束，采购与烹饪全程遵守）
+Starting point was the cookbook's own recommendation for 6 people (4 meat dishes + 3 vegetable dishes: 洋葱炒猪肉、新疆大盘鸡、麻辣香锅、血浆鸭、小炒藕丁、凉拌豆腐 …). Adjusted to satisfy: at least 1 soup, at least 1 vegetable dish, at least 2 meat dishes, and 手抓饼 as the staple. Dropped 血浆鸭 (★★★★★, needs fresh duck blood) and 麻辣香锅 to keep a single cook's workload realistic.
 
-1. **忌虾（严重过敏）**：所有菜品与调料全程避开虾及虾制品（虾仁、虾皮、虾酱、海米、含虾调味料等）；砧板、锅具用前清洗。
-2. **忌香菜**：所有菜品不使用香菜（芫荽）；盛菜时避免混用夹具。
-3. 购物时核对预包装食品配料表，避免含虾、含香菜（芫荽）成分的商品。
+## Menu Overview（菜单总览）
 
-> 本菜单基于 6 人份推荐（已过滤虾 / 香菜）并结合分类浏览挑选，全部菜品均不含虾与香菜。
+| # | Dish | Category | Difficulty | Vegetarian |
+|---|------|----------|------------|------------|
+| 1 | 手抓饼 | 主食 Staple | ★★ | ✅（不加火腿/煎蛋时） |
+| 2 | 洋葱炒猪肉 | 荤菜 Meat | ★★★ | — |
+| 3 | 新疆大盘鸡 | 荤菜 Meat | ★★★★ | — |
+| 4 | 小炒藕丁 | 素菜 Vegetable | ★★★ | ✅ |
+| 5 | 凉拌豆腐 | 素菜 Vegetable | ★★ | ✅ |
+| 6 | 奶油蘑菇汤 | 汤 Soup | ★ | ✅ |
 
-## 一、菜单总览
+## 1. 手抓饼 (hand-torn scallion pancake) — 主食
 
-| 类别 | 菜名 | 预估烹饪难度 | 菜谱 ID |
-| --- | --- | --- | --- |
-| 主食 | 炒年糕 | ★★★ | `dishes-staple-炒年糕` |
-| 主食 | 炸酱面 | ★★★ | `dishes-staple-炸酱面` |
-| 荤菜 | 可乐鸡翅 | ★★★ | `dishes-meat_dish-可乐鸡翅` |
-| 荤菜 | 咕噜肉（菠萝咕噜肉） | ★★★★ | `dishes-meat_dish-咕噜肉` |
-| 素菜 | 地三鲜 | ★★★ | `dishes-vegetable_dish-地三鲜` |
-| 素菜 | 松仁玉米 | ★★ | `dishes-vegetable_dish-松仁玉米` |
-| 汤 | 玉米排骨汤 | ★★★ | `dishes-soup-玉米排骨汤-玉米排骨汤` |
+- **Difficulty**: ★★
+- **Recipe ID**: `dishes-breakfast-手抓饼`
+- **Main ingredients**: 普通面粉 200 g · 开水 100 ml · 冷水 50 ml · 食用油 15 ml · 盐 3 g · 鸡蛋 1 个 · 生菜 30 g · 火腿 30 g · 芝士片 1 片
+- **Steps**: the cookbook's step list is a placeholder (`--`); the standard method is: knead a hot-water dough (flour + boiling water, then cold water), rest ~20 min → divide, roll thin, brush with oil and salt, coil into a spiral and re-roll → pan-fry over low heat until golden and flaky → serve wrapped around a fried egg, lettuce, ham and a cheese slice. Scale up ~6× for the team.
+- **Vegetarian note**: without ham/egg it's fully vegetarian.
 
-## 二、菜品详情
+## 2. 洋葱炒猪肉 (stir-fried pork with onion) — 荤菜
 
-### 1. 主食：炒年糕
+- **Difficulty**: ★★★
+- **Recipe ID**: `dishes-meat_dish-洋葱炒猪肉`
+- **Main ingredients**: 猪肉 250 g · 洋葱 1 颗 · 蒜头 3 瓣 · 食用油 15 ml · 酱油 30 ml · 糖 15 g · 黑胡椒 1.25 g · 番茄酱 15 ml · 麻油 5 ml · 料酒 15 ml
+- **Steps** (15 min): ① slice onion, pork, crush garlic, mix the seasonings ② heat oil, stir-fry pork until colour changes ③ remove pork, sauté garlic ④ stir-fry onion 3–4 min, add sauce ⑤ return pork and stir-fry until cooked through ⑥ 1–2 more minutes, plate.
 
-- **菜谱 ID**：`dishes-staple-炒年糕`
-- **预估烹饪难度**：★★★
-- **关键食材**：年糕 / 白粿、小葱、食用油、酱油、盐（可选：鸡蛋、青菜）
-- **每份用量**：年糕 250 g、小葱 2 根、食用油 50 ml、酱油 15 ml、盐 1-2 g（6 人聚餐按人数放大或按食量调整）
-- **做法要点**：年糕煮熟泡水防粘 → 葱白小火炸出葱油盛出 → 热锅炒辅料（鸡蛋、青菜等，可选）→ 下年糕，加酱油和盐翻炒均匀 → 关火后拌入葱油装盘。约 30 分钟可完成。
+## 3. 新疆大盘鸡 (Xinjiang big-plate chicken) — 荤菜
 
-### 2. 主食：炸酱面
+- **Difficulty**: ★★★★
+- **Recipe ID**: `dishes-meat_dish-新疆大盘鸡`
+- **Main ingredients**: 鸡腿肉 ~1 kg（两只火枪腿） · 土豆 2 个 / 750 g · 大葱 100 g · 菜椒、甜椒 各 1 个（各 50 g） · 干线椒 5 个 · 大蒜 4 瓣 · 白糖 20 g · 油 50 g · 花椒、香叶、香果 · 盐 5 g · 生抽 7 ml · 蚝油 10 g · 料酒 100 g（可用啤酒） · 清水 1 L
+- **Steps**: ① soak chicken pieces in salted water 5 min, drain ② wash/peel vegetables ③ cut scallion into 4 cm lengths, peppers into chunks ④ roll-cut potatoes ~4×4 cm ⑤ caramelize sugar in oil, add chicken to colour ⑥ add 花椒/香叶/香果/干线椒 ⑦ season, add 1 L water (beer can replace 料酒) ⑧ boil then simmer on medium-low ⑨ when liquid nearly covers the chicken, lay potatoes on top (don't stir), later add scallion & peppers ⑩ reduce until absorbed, serve.
 
-- **菜谱 ID**：`dishes-staple-炸酱面`
-- **预估烹饪难度**：★★★
-- **关键食材**：肉丁 / 肉末、面条（挂面或普通面条）、蒜、菜码（黄瓜、白菜、萝卜等 4-10 种）、豆瓣酱、甜面酱、葱
-- **每份用量**：肉丁 / 肉末 150 g、面条 150 g（挂面计）、葱 15 g、菜码总量 35 g、食用油 10 g、豆瓣酱 20 g、甜面酱 20 g
-- **说明**：菜谱库中该条目仅给出配料，未提供分步做法；按家常做法：炒香肉丁后下两种酱料小火炸香，浇在煮好的面条与菜码上拌匀即可。菜码建议选黄瓜丝、萝卜丝等，**不放香菜**。
+## 4. 小炒藕丁 (stir-fried lotus root) — 素菜（vegetarian）
 
-### 3. 荤菜：可乐鸡翅
+- **Difficulty**: ★★★
+- **Recipe ID**: `dishes-vegetable_dish-小炒藕丁`
+- **Main ingredients**: 莲藕 1 段 · 大葱 1 段 · 小米辣 1–2 根 · 生抽 30 ml · 老抽 15 ml · 蚝油 15 ml · 食用油 10–15 ml
+- **Steps** (20 min): ① cut scallion & chilli ② peel lotus root, dice <3 cm, keep in water to avoid browning ③ boil 500 ml water ④ blanch lotus root 2 min ⑤ dry the wok, add oil ⑥ sauté aromatics ⑦ stir-fry lotus root on high heat ⑧ add sauces ⑨ 2 min and serve.
 
-- **菜谱 ID**：`dishes-meat_dish-可乐鸡翅`
-- **预估烹饪难度**：★★★
-- **关键食材**：鸡翅中、可乐、白糖、生抽、老抽、盐、生姜、料酒（或啤酒）、小葱
-- **每份用量**：鸡翅 10-12 只、可乐 500 ml、白糖 10 g、生抽 15 g、老抽 3 g、盐 2 g、生姜 2 片、料酒 20 ml、小葱挽结
-- **做法要点**：鸡翅冷水下锅加姜片料酒焯水撇沫 → 生抽腌 10 分钟 → 小火爆香姜片煎至两面金黄 → 倒入可乐没过鸡翅，加葱结煮沸撇沫 → 加盐、糖、生抽（老抽调色）→ 中火慢煮至可乐呈挂丝状态，关小火收汁挂匀即可。
+## 5. 凉拌豆腐 (chilled tofu with scallion dressing) — 素菜（vegetarian）
 
-### 4. 荤菜：咕噜肉（菠萝咕噜肉）
+- **Difficulty**: ★★
+- **Recipe ID**: `dishes-vegetable_dish-凉拌豆腐`
+- **Main ingredients**: 豆腐 250 g（北豆腐/老豆腐，1 块） · 小葱 10 g · 大蒜 2–3 瓣 · 生抽 15 ml · 香油 5 ml · 醋 5 ml（可选） · 白糖 2 g（可选） · 辣椒油 5 ml（可选）
+- **Steps** (10 min): ① cube tofu 2 cm ② boil 500 ml water ③ blanch tofu 1–2 min ④ drain ⑤ chop scallion ⑥ mince garlic ⑦ mix dressing ⑧ add garlic ⑨ stir until sugar dissolves ⑩ pour over tofu ⑪ sprinkle scallions ⑫ optional chilli oil ⑬ toss gently and serve.
 
-- **菜谱 ID**：`dishes-meat_dish-咕噜肉`
-- **预估烹饪难度**：★★★★
-- **关键食材**：梅头猪肉、青椒、罐头菠萝片、茄汁、白醋、蒜蓉、生抽、生粉、白砂糖、盐、水
-- **每份用量**：梅头猪肉 100 g、青椒 25 g、罐头菠萝片 75 g、茄汁 4 汤匙、白醋 2 茶匙、蒜蓉 1 汤匙、生抽 1/2 茶匙、生粉 2 1/2 茶匙、白砂糖 2 汤匙、盐 1/4 茶匙、水 200 ml
-- **做法要点**：猪肉切小粒抹干，盐腌 20 分钟 → 调好酸甜酱汁 → 肉粒裹生粉，中火油炸 5 分钟后大火复炸 1 分钟 → 少油下酱汁加热 3 分钟 → 加青椒、菠萝大火 2 分钟 → 与炸好的肉粒拌匀装盘。（1 汤匙 = 15 ml，1 茶匙 = 5 ml）
+## 6. 奶油蘑菇汤 (cream of mushroom soup) — 汤（vegetarian）
 
-### 5. 素菜：地三鲜
+- **Difficulty**: ★
+- **Recipe ID**: `dishes-soup-奶油蘑菇汤`
+- **Main ingredients**: 白蘑菇 200 g · 洋葱 50 g · 黄油 15 g · 面粉 10 g · 牛奶 200 ml · 淡奶油 30 ml · 清水 100 ml · 盐 2 g · 黑胡椒碎 1 g
+- **Steps**: the cookbook's step list is a placeholder (`--`); standard method: sweat onion in butter → add sliced mushrooms → sprinkle in flour and cook 1 min → add water, milk and cream → simmer and season with salt & pepper. Chosen because it is vegetarian and easy (★); deliberately avoided e.g. 紫菜蛋花汤 whose recipe optionally includes 虾仁 (shrimp).
 
-- **菜谱 ID**：`dishes-vegetable_dish-地三鲜`
-- **预估烹饪难度**：★★★
-- **关键食材**：茄子、土豆、尖椒、葱、姜、蒜、豆瓣酱、生抽、盐、糖、淀粉
-- **每份用量**：茄子 100 g、土豆 150 g、尖椒 3-4 个、淀粉 20 g（另需食用油约 25-40 ml 及葱姜蒜等）
-- **做法要点**：土豆煎炸至 8 分熟金黄捞出 → 茄子煎炸约 40 秒至 7 分熟 → 下葱姜、豆瓣酱、生抽、盐、糖 → 回锅土豆与尖椒翻炒 → 加蒜、水淀粉收汁至汤剩一半即可。
+## Shopping List（合并购物清单，6 人份）
 
-### 6. 素菜：松仁玉米
+**Meat & protein 肉蛋**
+- 猪肉 250 g（洋葱炒猪肉）
+- 鸡腿肉 ~1 kg（新疆大盘鸡）
+- 鸡蛋（手抓饼煎蛋，约 6 个）
+- 火腿 30 g+（手抓饼，可选）
+- 芝士片（手抓饼，1–6 片）
 
-- **菜谱 ID**：`dishes-vegetable_dish-松仁玉米`
-- **预估烹饪难度**：★★
-- **关键食材**：玉米粒（建议甜玉米）、熟松子仁、胡萝卜（可选）、食用油、白砂糖、盐、淀粉、水
-- **每份用量**：玉米粒 200 g、熟松子仁 30 g、胡萝卜 50 g、食用油 15 ml、白砂糖 10 g、盐 1 g、淀粉 5 g、水 20 ml
-- **做法要点**：玉米粒与胡萝卜丁焯水 1 分钟沥干 → 热锅凉油先炒胡萝卜丁再下玉米粒 → 加糖和盐炒匀 → 水淀粉勾薄芡 → 撒入熟松仁翻匀出锅。色香味俱全，老少皆宜。
+**Vegetables & mushrooms 蔬菜菌菇**
+- 洋葱 2 颗（洋葱炒猪肉 1 颗 + 奶油蘑菇汤 50 g）
+- 土豆 2 个 / 750 g（新疆大盘鸡）
+- 大葱（新疆大盘鸡 100 g + 小炒藕丁 1 段）
+- 菜椒、甜椒 各 1 个（新疆大盘鸡）
+- 莲藕 1 段（小炒藕丁）
+- 小葱（凉拌豆腐 10 g + 手抓饼）
+- 小米辣 1–2 根（小炒藕丁）
+- 生菜 30 g+（手抓饼）
+- 白蘑菇 200 g（奶油蘑菇汤）
+- 豆腐 250 g / 1 块，北豆腐或老豆腐（凉拌豆腐）
 
-### 7. 汤：玉米排骨汤
+**Dairy 乳制品**
+- 黄油 15 g · 牛奶 200 ml · 淡奶油 30 ml（奶油蘑菇汤）
 
-- **菜谱 ID**：`dishes-soup-玉米排骨汤-玉米排骨汤`
-- **预估烹饪难度**：★★★
-- **关键食材**：排骨、玉米、胡萝卜、生姜、大葱、食用油、醋、料酒、黑胡椒粉、食用盐
-- **每份用量**：排骨 500-800 g、玉米 1 根、胡萝卜 1 根、大葱小半根、香葱 1 根、食用油 10 ml、黑胡椒粉 4 g、料酒 10 ml、醋 10 ml、盐 10-15 g、开水 1000 ml
-- **做法要点**：排骨冷水下锅加葱姜料酒焯水撇沫 → 热锅凉油将姜片与排骨煸至微焦，烹醋再炒 1 分钟 → 冲入足量开水一次加足，大火烧开 → 下玉米与胡椒粉小火炖 20 分钟，再下胡萝卜炖 40 分钟 → 出锅前 3 分钟只加盐，撒葱花即可。
+**Staples & dry goods 主食干货**
+- 普通面粉 200 g + 10 g（手抓饼 + 奶油蘑菇汤增稠）
+- 干线椒 5 个（新疆大盘鸡）
+- 花椒、香叶、香果（新疆大盘鸡）
 
-## 三、购物清单（按 6 人估算，已合并去重）
+**Seasonings & sauces 调味料**
+- 食用油、盐、白糖、酱油/生抽、老抽、料酒、蚝油、麻油/香油、醋、番茄酱、黑胡椒、鸡精（常备，按需补）
 
-- **主食类**：年糕约 1.5 kg、面条 / 挂面、面粉 200 g（手抓饼用）
-- **肉类**：鸡翅 10-12 只、梅头猪肉、肉末 / 肉丁、排骨 500-800 g
-- **蔬菜**：茄子、土豆、尖椒、青椒、玉米粒（甜玉米）、胡萝卜、生菜、黄瓜、小葱、大葱、生姜、大蒜、蒜头
-- **水果 / 干果 / 罐头**：罐头菠萝片、熟松子仁
-- **蛋奶类**：鸡蛋、火腿、芝士片（手抓饼配料）
-- **调味料**：食用油、酱油、生抽、老抽、盐、白糖、豆瓣酱、甜面酱、茄汁、白醋、蒜蓉、生粉 / 淀粉、黑胡椒粉、料酒、可乐 500 ml
-- **注意**：以上清单不含任何虾类及香菜（芫荽）制品；采购时再次核对配料表。
+## Dietary-safety notes（饮食安全提醒）
 
-## 四、饮食安全提醒
-
-1. 一位同事对虾**严重过敏**：采购、备料、烹饪全程避开虾及虾制品，砧板与锅具用前彻底清洗，避免交叉污染。
-2. 一位同事完全不吃香菜：所有菜品不放香菜，夹菜工具分开使用。
-3. 本菜单 7 道菜 + 附录手抓饼均经过虾 / 香菜筛查，未发现相关成分。
-
----
-
-## 附录：手抓饼的完整菜谱（实习生点名）
-
-- **菜谱 ID**：`dishes-breakfast-手抓饼`
-- **分类**：早餐 | **预估烹饪难度**：★★ | **份量**：1 份（1-2 人食用）
-
-### 必备原料和工具
-
-普通面粉、开水、冷水、食用油、盐、鸡蛋、生菜、火腿、芝士片
-
-### 用量（每份）
-
-| 食材 | 用量 |
-| --- | --- |
-| 面粉 | 200 克 |
-| 开水 | 100 毫升 |
-| 冷水 | 50 毫升 |
-| 食用油 | 15 毫升 |
-| 盐 | 3 克 |
-| 鸡蛋 | 1 个 |
-| 生菜 | 30 克 |
-| 火腿 | 30 克 |
-| 芝士片 | 1 片 |
-
-### 做法步骤
-
-> 菜谱库原文的步骤部分为占位符（未提供分步说明）。以下为我们补充的参考做法，请结合实际操作调整：
-
-1. 面粉入碗，先倒入开水搅拌成絮状，再加入冷水和成光滑面团，盖湿布静置约 20 分钟。
-2. 面团分成每份约 100 克的小剂子，搓圆后擀成薄片。
-3. 薄片表面均匀刷油、撒盐，卷起盘成螺旋状，松弛 10 分钟后再擀成厚度均匀的薄饼。
-4. 平底锅少油小火，将饼煎至两面金黄起层。
-5. 用余油煎一个鸡蛋，依次铺上煎蛋、生菜、火腿、芝士片，卷起即可。
-
-### 备注
-
-- 本菜谱同样**不含虾与香菜**，符合聚餐硬性约束。
-- 菜谱原文附注：如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request。
+1. **Shrimp allergy（虾过敏）**: none of the 6 dishes uses shrimp or shrimp-derived ingredients (虾仁/虾皮/虾酱/海米 etc.). When buying packaged goods, check labels for hidden shrimp; wash boards and woks before use to avoid cross-contamination.
+2. **Vegetarian（素食）**: 手抓饼（不加火腿/煎蛋时）、小炒藕丁、凉拌豆腐、奶油蘑菇汤 are vegetarian; keep the two meat dishes served with separate utensils.
+3. Menu derived from the cookbook's 6-person recommendation (4 meat + 3 vegetable) and adjusted: kept 洋葱炒猪肉、新疆大盘鸡、小炒藕丁、凉拌豆腐, dropped 血浆鸭 and 麻辣香锅, added soup + 手抓饼 staple.
