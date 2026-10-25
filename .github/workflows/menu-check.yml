@@ -1,0 +1,19 @@
+name: Menu Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  menu-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify menu.md exists
+        run: |
+          if [ ! -f "menu.md" ]; then
+            echo "::error::menu.md was not found in the repository root"
+            exit 1
+          fi
+          echo "menu.md is present — menu check passed."
